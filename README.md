@@ -1,8 +1,8 @@
 # Tgstat-sdk
-[![Telegram channel](https://img.shields.io/endpoint?color=neon&url=https://tg.sumanjay.workers.dev/MoneyTherToEat)](https://t.me/MoneyTherToEat)
-[![PyPI version](https://img.shields.io/pypi/v/tgstat-sdk.svg)](https://pypi.org/project/tgstat-sdk/)
-[![Python versions](https://img.shields.io/pypi/pyversions/tgstat-sdk.svg)](https://pypi.org/project/tgstat-sdk/)
-[![PyPI downloads](https://img.shields.io/pypi/dm/tgstat-sdk.svg)](https://pypi.org/project/tgstat-sdk/)
+[![Telegram](https://img.shields.io/badge/Telegram-@MoneyTherToEat-26A5E4?logo=telegram&logoColor=white)](https://t.me/MoneyTherToEat)
+[![PyPI](https://img.shields.io/pypi/v/tgstat-sdk?logo=pypi&logoColor=white)](https://pypi.org/project/tgstat-sdk/)
+[![Python](https://img.shields.io/pypi/pyversions/tgstat-sdk?logo=python&logoColor=white)](https://pypi.org/project/tgstat-sdk/)
+[![Downloads](https://img.shields.io/pypi/dm/tgstat-sdk)](https://pypi.org/project/tgstat-sdk/)
 
 Современный, удобный и асинхронный Python SDK для официального TGStat API.
 
