@@ -34,7 +34,7 @@ class TGStatClient:
                 token=token,
                 base_url=base_url or "https://api.tgstat.ru",
                 timeout=timeout or 10.0,
-                user_agent=user_agent or "tgstat-sdk/0.1.0",
+                user_agent=user_agent or "tgstat-sdk/0.1.1",
                 retry=retry or RetryConfig(),
             )
 

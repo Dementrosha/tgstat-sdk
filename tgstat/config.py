@@ -15,5 +15,5 @@ class TGStatConfig:
     token:      str
     base_url:   str = "https://api.tgstat.ru"
     timeout:    float = 10.0
-    user_agent: str = "tgstat-sdk/0.1.0"
+    user_agent: str = "tgstat-sdk/0.1.1"
     retry:      RetryConfig = field(default_factory=RetryConfig)
