@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.python-version
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+site/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test and coverage
+.coverage
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+htmlcov/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local environment files
+.env
+.env.*
+*.env
+*.local
+*.secret
+secrets/
+
+# Local tool state
+.cache/
+logs/
+*.log

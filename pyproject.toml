@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling>=1.24.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tgstat-sdk"
+version = "0.1.0"
+description = "Async Python SDK for the official TGStat API."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "httpx>=0.27.0,<1.0.0",
+  "pydantic>=2.7.0,<3.0.0",
+]
+authors = [
+  { name = "Dementrosha" },
+]
+keywords = ["tgstat", "telegram", "sdk", "api", "async"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Typing :: Typed",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["tgstat"]
