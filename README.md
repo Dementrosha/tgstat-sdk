@@ -20,7 +20,7 @@
 ## Установка
 
 ```bash
-pip install -e .
+pip install tgstat-sdk
 ```
 
 ## Быстрый старт

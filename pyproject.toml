@@ -26,5 +26,12 @@ classifiers = [
   "Typing :: Typed",
 ]
 
+[project.urls]
+Homepage      = "https://github.com/Dementrosha/tgstat-sdk"
+Repository    = "https://github.com/Dementrosha/tgstat-sdk"
+Documentation = "https://api.tgstat.ru/docs/"
+Issues        = "https://github.com/Dementrosha/tgstat-sdk/issues"
+Telegram      = "https://t.me/MoneyTherToEat"
+
 [tool.hatch.build.targets.wheel]
 packages = ["tgstat"]
